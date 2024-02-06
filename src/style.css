@@ -1,24 +1,26 @@
 body {
-  background-color: #F9F7FE;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #f9f7fe;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-form, main {
+form,
+main {
   border-bottom: 1px solid rgb(192, 192, 192);
-
 }
-main, .app {
-    display: block;
+main,
+.app {
+  display: block;
 }
-form, .current-weather {
- display: flex;
+form,
+.current-weather {
+  display: flex;
 }
 
 form {
-justify-content: center;
+  justify-content: center;
   padding-bottom: 25px;
 }
 main {
-    padding: 30px 0;
+  padding: 30px 0;
 }
 .app {
   background-color: white;
@@ -45,21 +47,21 @@ main {
 .value {
   font-size: 80px;
   font-weight: bold;
- right: -15px;
+  right: -15px;
+  top: -30px;
 }
-.emoji {
-    right: -18px;
-    top: -7px;
-    font-size: 40px;
+.icon {
+  margin-right: -25px;
 }
 .degree {
-    right: 38px;
-    font-size: 28px;
-    right: -11px;
-    top: -39px;
+  font-size: 28px;
+  right: -10px;
+  top: -72px;
 }
-.value, .emoji, .degree {
-position: relative;
+.value,
+.emoji,
+.degree {
+  position: relative;
 }
 .search-box,
 .search-submit {
@@ -67,9 +69,10 @@ position: relative;
   border-radius: 10px;
   border: none;
 }
-.current-weather p, footer {
-    color: rgba(39, 33, 66, 0.4);
+.current-weather p,
+footer {
+  color: rgba(39, 33, 66, 0.4);
 }
 .current-weather div p strong {
-    color: red;
+  color: red;
 }
